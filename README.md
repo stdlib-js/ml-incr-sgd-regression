@@ -269,6 +269,22 @@ console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.9, 0.9] ), 
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/ml/incr/binary-classification`][@stdlib/ml/incr/binary-classification]: incrementally perform binary classification using stochastic gradient descent (SGD).
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -329,6 +345,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [l2-regularization]: https://en.wikipedia.org/wiki/Tikhonov_regularization
 
 [stochastic-gradient-descent]: https://en.wikipedia.org/wiki/Stochastic_gradient_descent
+
+<!-- <related-links> -->
+
+[@stdlib/ml/incr/binary-classification]: https://github.com/stdlib-js/stdlib
+
+<!-- </related-links> -->
 
 </section>
 
