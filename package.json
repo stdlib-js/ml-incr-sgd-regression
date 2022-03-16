@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ml-incr-sgd-regression",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Online regression via stochastic gradient descent (SGD).",
   "license": "Apache-2.0",
   "author": {
