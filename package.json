@@ -45,6 +45,7 @@
     "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/math-base-special-max": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
