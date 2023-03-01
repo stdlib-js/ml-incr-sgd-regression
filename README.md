@@ -285,7 +285,7 @@ console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.9, 0.9] ), 
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/ml/incr/binary-classification`][@stdlib/ml/incr/binary-classification]</span><span class="delimiter">: </span><span class="description">incrementally perform binary classification using stochastic gradient descent (SGD).</span>
+-   <span class="package-name">[`@stdlib/ml-incr/binary-classification`][@stdlib/ml/incr/binary-classification]</span><span class="delimiter">: </span><span class="description">incrementally perform binary classification using stochastic gradient descent (SGD).</span>
 
 </section>
 

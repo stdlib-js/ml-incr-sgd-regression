@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/sgd-regression"
-click B href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/main"
-click C href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/production"
-click D href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/esm"
-click E href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/deno"
-click F href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/sgd-regression"
+%% click B href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/main"
+%% click C href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/production"
+%% click D href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/esm"
+%% click E href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/deno"
+%% click F href "https://github.com/stdlib-js/ml-incr-sgd-regression/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/sgd-regression
