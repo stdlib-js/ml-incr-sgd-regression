@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
+import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@v0.2.1-esm/index.mjs';
 ```
 
 #### incrSGDRegression( \[options] )
@@ -238,7 +238,7 @@ var coefs = accumulator.coefs;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
-import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
+import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@v0.2.1-esm/index.mjs';
 
 var accumulator;
 var rnorm;
