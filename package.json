@@ -49,12 +49,13 @@
     "@stdlib/types": "^0.3.2",
     "@stdlib/utils-copy": "^0.2.1",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/random-base-normal": "^0.2.0",
-    "@stdlib/random-base-randu": "^0.2.0",
+    "@stdlib/random-base-normal": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
