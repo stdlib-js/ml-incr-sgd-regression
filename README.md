@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ml-incr-sgd-regression/tags). For example,
+
+```javascript
 import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@v0.2.2-esm/index.mjs';
 ```
 
@@ -238,7 +243,7 @@ var coefs = accumulator.coefs;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
-import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@v0.2.2-esm/index.mjs';
+import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
 
 var accumulator;
 var rnorm;
