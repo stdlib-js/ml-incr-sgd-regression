@@ -35,14 +35,32 @@ limitations under the License.
 
 > Online regression via [Stochastic Gradient Descent][stochastic-gradient-descent].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ml-incr-sgd-regression
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
+var incrSGDRegression = require( '@stdlib/ml-incr-sgd-regression' );
 ```
 
 #### incrSGDRegression( \[options] )
@@ -50,8 +68,8 @@ import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd
 Creates an online linear regression model fitted via [stochastic gradient descent][stochastic-gradient-descent]. The module performs [L2 regularization][l2-regularization] of the model coefficients, shrinking them towards zero by penalizing the squared [euclidean norm][euclidean-norm] of the coefficients.
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
+var randu = require( '@stdlib/random-base-randu' );
+var normal = require( '@stdlib/random-base-normal' );
 var accumulator = incrSGDRegression();
 
 var x1;
@@ -103,7 +121,7 @@ The used loss function is specified via the `loss` option. The available options
 The `lambda` parameter determines the amount of shrinkage inflicted on the model coefficients:
 
 ```javascript
-var createRandom = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu' ).factory;
+var createRandom = require( '@stdlib/random-base-randu' ).factory;
 
 var accumulator;
 var coefs;
@@ -230,15 +248,10 @@ var coefs = accumulator.coefs;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
-import incrSGDRegression from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-sgd-regression@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var normal = require( '@stdlib/random-base-normal' );
+var incrSGDRegression = require( '@stdlib/ml-incr-sgd-regression' );
 
 var accumulator;
 var rnorm;
@@ -271,10 +284,6 @@ console.log( accumulator.coefs );
 console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.9, 0.1] ), 0.9, 0.1 );
 console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.1, 0.9] ), 0.1, 0.9 );
 console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.9, 0.9] ), 0.9, 0.9 );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -304,7 +313,7 @@ console.log( 'y_hat = %d; x1 = %d; x2 = %d', accumulator.predict( [0.9, 0.9] ), 
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -375,7 +384,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/ml/incr/binary-classification]: https://github.com/stdlib-js/ml-incr-binary-classification/tree/esm
+[@stdlib/ml/incr/binary-classification]: https://github.com/stdlib-js/ml-incr-binary-classification
 
 <!-- </related-links> -->
 
