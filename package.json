@@ -44,18 +44,18 @@
     "@stdlib/assert-is-positive-number": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/math-base-special-max": "^0.3.1",
-    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-copy": "^0.2.2",
+    "@stdlib/utils-copy": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-function": "^0.2.3",
-    "@stdlib/random-base-normal": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-base-normal": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
